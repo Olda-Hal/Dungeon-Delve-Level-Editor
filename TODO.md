@@ -1,0 +1,11 @@
+# These features should be implemented:
+- [ ] Texture Pools
+    - texture pools are a structure that contains multiple textures that can be used in the level
+    - each texture pool has a name, list of textures, and optional properties like scale, rotation, chance of this texture etc.
+    - texture pools can be used in the level structure to randomly select a texture from the pool
+- [ ] Random Texture Selection
+    - the level structure should support random texture selection from a texture pool
+    - this will allow for more dynamic and varied level generation
+- [ ] Grid generation
+    - Grid generation should be a command that gets the dimension of a grid of entities and generates a grid of entities
+    - this grid should take as a argument a width, height, spacing between entities, and a texture pool for the entities

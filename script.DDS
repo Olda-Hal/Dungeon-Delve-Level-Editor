@@ -11,3 +11,29 @@ LEVEL:
         Y: 0;
     MOVABLE: T;
     MENUS: ---;
+
+POOL:
+    NAME: "floortiles";
+    TILES:
+        0:
+            PATH: "floor1.png"
+            CHANCE: *;
+            PROPERTIES:
+                ROTATION: 0 ... 359;
+                SCALE: 2;
+        1:
+            PATH: "floor2.png"
+            CHANCE: *;
+            PROPERTIES:
+                ROTATION: 0 ... 359;
+                SCALE: 2;
+
+GRID:
+    SIZE:
+        X: 10;
+        Y: 10;
+    POS:
+        X: 156;
+        Y: 542;
+    POOL: "floortiles";
+    

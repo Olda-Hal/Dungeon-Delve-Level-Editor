@@ -1,0 +1,13 @@
+LEVEL:
+    METADATA: "uudeajaj";
+    NAME: "test1";
+    BACKGROUND: "backgrounds/level0.png";
+    BGTRANSPARENT: T;
+    SIZE:
+        X: 1;
+        Y: 1;
+    POS:
+        X: 0;
+        Y: 0;
+    MOVABLE: T;
+    MENUS: ---;

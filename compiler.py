@@ -15,6 +15,3 @@ if args.file is None:
 else:
     decompositor.main(args)
 
-
-# Nyní můžete použít args.file pro přístup k názvu souboru
-print(f'Kompilace souboru {args.file}')
